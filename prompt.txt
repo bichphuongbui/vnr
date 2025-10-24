@@ -1,0 +1,65 @@
+Tạo một trang web minh bạch và chuyên nghiệp có tên “Minh bạch AI (AI Transparency)” – thể hiện cách nhóm 18 sử dụng trí tuệ nhân tạo trong dự án “Từ gian khổ đến vinh quang”, đảm bảo đúng tiêu chí học thuật và đạo đức học tập.
+
+💡 Cấu trúc & nội dung mong muốn:
+
+🧠 4.1. Minh bạch
+
+Có bảng hoặc mục “AI Usage” liệt kê chi tiết:
+
+Công cụ / Nền tảng	Mục đích sử dụng	Prompt chính	Kết quả tạo ra	Phần chỉnh sửa của sinh viên
+Cursor + API Chatbot	Tạo chatbot hỏi đáp về chủ đề lịch sử (1945–1954)	“Generate Q&A about Vietnam’s revolution”	Gợi ý câu hỏi, phản hồi tự động	Sinh viên biên tập, bổ sung dữ kiện, kiểm chứng theo giáo trình LLCT
+Luma AI (API)	Tạo hình ảnh minh họa & hiệu ứng video	“Generate cinematic 1945–1954 scenes”	Video nền và cảnh minh họa	Sinh viên chọn cảnh, thêm thuyết minh
+NotebookLM (Google)	Tổng hợp & tóm tắt nội dung bài thuyết trình	“Summarize and visualize Vietnam’s revolution (1945–1954)”	Video tóm tắt 2–3 phút	Sinh viên kiểm tra nội dung, hiệu chỉnh lời dẫn
+ChatGPT (OpenAI)	Hỗ trợ ý tưởng, soạn quiz, gợi ý cấu trúc web	“Create quiz + presentation structure for history project”	Gợi ý outline, câu hỏi, nội dung	Sinh viên biên tập, xác minh và trình bày lại bằng ngôn ngữ riêng
+
+Có mục nhỏ ghi chú:
+
+“Tất cả nội dung được AI hỗ trợ đều được nhóm biên tập, chỉnh sửa, kiểm chứng trước khi sử dụng.”
+
+⚖️ 4.2. Có trách nhiệm
+
+Toàn bộ thông tin do AI tạo ra được đối chiếu với giáo trình Lý luận Chính trị (LLCT), Nghị quyết Đảng, và các văn bản lịch sử chính thống (Ban Tuyên giáo, Bộ GD&ĐT, Hồ Chí Minh Toàn tập, v.v.).
+
+Nhóm chịu trách nhiệm hoàn toàn về tính chính xác của nội dung cuối cùng.
+
+Có dòng cam kết hiển thị:
+
+“Nhóm 18 cam kết toàn bộ nội dung được kiểm chứng và biên tập lại dựa trên nguồn chính thống, đảm bảo tính học thuật và trung thực.”
+
+🎨 4.3. Sáng tạo
+
+AI chỉ đóng vai trò hỗ trợ trong các phần kỹ thuật và sáng tạo như:
+
+Tạo sơ đồ tư duy, slide trình bày, quiz tương tác, chatbot, video, bài hát chủ đề.
+
+Phần phân tích, tổng hợp, đánh giá và kết luận đều do sinh viên tự biên soạn.
+
+Có ghi rõ:
+
+“AI là công cụ, không phải người thay thế tư duy.”
+
+📜 4.4. Liêm chính học thuật
+
+Có cam kết bằng văn bản hoặc mục hiển thị trong slide/phụ lục:
+
+“Chúng tôi cam kết không để AI thực hiện toàn bộ nội dung thay thế cho sinh viên.”
+
+Có phần phân biệt rõ ràng:
+
+Màu khác hoặc ký hiệu “(AI hỗ trợ)” cho đoạn AI sinh ra.
+
+Ghi chú “(Chỉnh sửa bởi nhóm 18)” cho phần sinh viên biên tập.
+
+Có mục “Đối chiếu nguồn”: trích dẫn các tài liệu LLCT, giáo trình, nghị quyết, văn bản chính thống đã được dùng để kiểm chứng nội dung AI tạo.
+
+Kết thúc trang bằng dòng cam kết nhóm:
+
+“Chúng tôi tin rằng sự kết hợp giữa AI và tư duy con người không chỉ giúp học tập hiệu quả hơn, mà còn tôn trọng sự trung thực và sáng tạo trong nghiên cứu khoa học.”
+
+🎨 Phong cách hiển thị:
+
+Bố cục dạng 4 section tương ứng 4.1–4.4.
+
+Màu chủ đạo: be sáng – đỏ trầm – vàng đồng, đồng bộ với trang chủ.
+
+Font chữ thanh lịch (Sans-serif hoặc Semi-serif), có biểu tượng logo nhỏ của nhóm 18 ở cuối trang.

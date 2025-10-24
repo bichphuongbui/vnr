@@ -1,0 +1,223 @@
+﻿//
+
+export default function ATransparency() {
+  return (
+    <div className="ai-transparency-page">
+      {/* Hero Section */}
+      <section className="ai-hero">
+        <div className="ai-container">
+          <div className="ai-hero-icon">đŸ¤–</div>
+          <h1 className="ai-hero-title">TĂ­nh Minh Báº¡ch trong á»¨ng Dá»¥ng AI</h1>
+          <p className="ai-hero-text">
+            ChĂºng tĂ´i cam káº¿t sá»­ dá»¥ng cĂ¡c cĂ´ng cá»¥ AI má»™t cĂ¡ch minh báº¡ch, cĂ³ trĂ¡ch nhiá»‡m vĂ  tuĂ¢n thá»§ cĂ¡c nguyĂªn táº¯c Ä‘áº¡o Ä‘á»©c há»c thuáº­t. 
+            Má»i á»©ng dá»¥ng AI Ä‘á»u Ä‘Æ°á»£c kiá»ƒm soĂ¡t cháº·t cháº½ vĂ  phá»¥c vá»¥ má»¥c Ä‘Ă­ch há»— trá»£, khĂ´ng thay tháº¿ tÆ° duy con ngÆ°á»i.
+          </p>
+        </div>
+      </section>
+
+      {/* CĂ´ng Cá»¥ AI */}
+      <section className="ai-tools-section fade-in">
+        <div className="ai-container">
+          <h2 className="ai-section-title">
+            <span className="ai-title-icon">đŸ› ï¸</span>
+            CĂ´ng Cá»¥ AI ÄĂ£ Sá»­ Dá»¥ng
+          </h2>
+          
+          <div className="ai-tools-cards">
+            <div className="ai-tool-card">
+              <div className="tool-card-icon">đŸ“</div>
+              <h3 className="tool-card-title">NotebookLM</h3>
+              <p className="tool-card-purpose">Tham kháº£o lĂ½ thuyáº¿t, táº¡o video tĂ³m táº¯t</p>
+              <p className="tool-card-note">NghiĂªn cá»©u, phĂ¢n tĂ­ch tĂ i liá»‡u</p>
+            </div>
+
+            <div className="ai-tool-card">
+              <div className="tool-card-icon">đŸ’»</div>
+              <h3 className="tool-card-title">Cursor</h3>
+              <p className="tool-card-purpose">Viáº¿t code, káº¿t ná»‘i API, debug</p>
+              <p className="tool-card-note">Láº­p trĂ¬nh chatbot</p>
+            </div>
+
+            <div className="ai-tool-card">
+              <div className="tool-card-icon">đŸ¦™</div>
+              <h3 className="tool-card-title">Llama</h3>
+              <p className="tool-card-purpose">Há»i nhanh, tra cá»©u khĂ¡i niá»‡m</p>
+              <p className="tool-card-note">Há»— trá»£ nghiĂªn cá»©u</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Má»¥c ÄĂ­ch Sá»­ Dá»¥ng */}
+      <section className="ai-purpose-section fade-in">
+        <div className="ai-container">
+          <h2 className="ai-section-title">
+            <span className="ai-title-icon">đŸ¯</span>
+            Má»¥c ÄĂ­ch Sá»­ Dá»¥ng AI
+          </h2>
+          
+          <div className="ai-purpose-grid">
+            <div className="ai-purpose-item">
+              <div className="purpose-icon">đŸ“</div>
+              <h3>NotebookLM</h3>
+              <ul className="purpose-list">
+                <li>Tham kháº£o lĂ½ thuyáº¿t</li>
+                <li>Táº¡o video tĂ³m táº¯t</li>
+                <li>Há»— trá»£ phĂ¢n tĂ­ch tĂ i liá»‡u</li>
+              </ul>
+            </div>
+
+            <div className="ai-purpose-item">
+              <div className="purpose-icon">đŸ’»</div>
+              <h3>Cursor</h3>
+              <ul className="purpose-list">
+                <li>Viáº¿t code cho chatbot</li>
+                <li>Xá»­ lĂ½ dá»¯ liá»‡u</li>
+                <li>Káº¿t ná»‘i API</li>
+              </ul>
+            </div>
+
+            <div className="ai-purpose-item">
+              <div className="purpose-icon">đŸ¦™</div>
+              <h3>Llama</h3>
+              <ul className="purpose-list">
+                <li>Há»i Ä‘Ă¡p nhanh</li>
+                <li>Tham váº¥n Ă½ tÆ°á»Ÿng</li>
+                <li>Há»— trá»£ tĂ¬m hiá»ƒu khĂ¡i niá»‡m</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Vai TrĂ² Há»— Trá»£ */}
+      <section className="ai-role-section fade-in">
+        <div className="ai-container">
+          <h2 className="ai-section-title">
+            <span className="ai-title-icon">đŸ¤</span>
+            Vai TrĂ² Há»— Trá»£ â€“ KhĂ´ng Thay Tháº¿
+          </h2>
+          
+          <div className="ai-role-box">
+            <p className="role-description">
+              AI chá»‰ Ä‘Ă³ng vai trĂ² há»— trá»£, khĂ´ng thay tháº¿ tÆ° duy vĂ  sĂ¡ng táº¡o cá»§a con ngÆ°á»i.
+            </p>
+            
+            <div className="role-items">
+              <div className="role-item">
+                <span className="role-icon">đŸ’¡</span>
+                <span>Gá»£i Ă½ ná»™i dung</span>
+              </div>
+              <div className="role-item">
+                <span className="role-icon">đŸ”§</span>
+                <span>Há»— trá»£ code</span>
+              </div>
+              <div className="role-item">
+                <span className="role-icon">đŸ¬</span>
+                <span>Táº¡o video minh há»a</span>
+              </div>
+              <div className="role-item">
+                <span className="role-icon">đŸ“–</span>
+                <span>TÆ° váº¥n nghiĂªn cá»©u</span>
+              </div>
+            </div>
+
+            <div className="ai-warning">
+              <strong>â ï¸ LÆ°u Ă½ quan trá»ng:</strong> AI khĂ´ng thay tháº¿ hoĂ n toĂ n tÆ° duy, phĂ¢n tĂ­ch vĂ  trĂ¬nh bĂ y cá»§a thĂ nh viĂªn.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Kiá»ƒm Tra vĂ  Chá»‰nh Sá»­a */}
+      <section className="ai-check-section fade-in">
+        <div className="ai-container">
+          <h2 className="ai-section-title">
+            <span className="ai-title-icon">âœ…</span>
+            Kiá»ƒm Tra vĂ  Chá»‰nh Sá»­a Sau Khi DĂ¹ng AI
+          </h2>
+          
+          <div className="ai-check-steps">
+            <div className="check-step">
+              <div className="step-number">1</div>
+              <div className="step-content">
+                <h3>Kiá»ƒm tra ná»™i dung lĂ½ thuyáº¿t</h3>
+                <p>Äá»‘i chiáº¿u vá»›i giĂ¡o trĂ¬nh "Chá»§ nghÄ©a xĂ£ há»™i khoa há»c"</p>
+              </div>
+            </div>
+
+            <div className="check-step">
+              <div className="step-number">2</div>
+              <div className="step-content">
+                <h3>Review vĂ  test code</h3>
+                <p>Kiá»ƒm tra, chá»‰nh sá»­a code do AI táº¡o</p>
+              </div>
+            </div>
+
+            <div className="check-step">
+              <div className="step-number">3</div>
+              <div className="step-content">
+                <h3>XĂ¡c minh video content</h3>
+                <p>Äáº£m báº£o tĂ­nh chĂ­nh xĂ¡c</p>
+              </div>
+            </div>
+
+            <div className="check-step">
+              <div className="step-number">4</div>
+              <div className="step-content">
+                <h3>ÄĂ¡nh giĂ¡ tá»•ng thá»ƒ</h3>
+                <p>Äáº£m báº£o thá»‘ng nháº¥t vĂ  Ä‘Ăºng Ä‘áº¯n</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Cam Káº¿t LiĂªm ChĂ­nh */}
+      <section className="ai-commitment-section fade-in">
+        <div className="ai-container">
+          <h2 className="ai-section-title commitment-title">
+            <span className="ai-title-icon">đŸ“</span>
+            Cam Káº¿t LiĂªm ChĂ­nh Há»c Thuáº­t
+          </h2>
+          
+          <div className="ai-commitment-box">
+            <ul className="commitment-list">
+              <li>
+                <span className="commitment-icon">đŸ§ </span>
+                KhĂ´ng thay tháº¿ tÆ° duy con ngÆ°á»i
+              </li>
+              <li>
+                <span className="commitment-icon">âœï¸</span>
+                PhĂ¢n biá»‡t rĂµ pháº§n AI táº¡o vĂ  pháº§n con ngÆ°á»i chá»‰nh sá»­a
+              </li>
+              <li>
+                <span className="commitment-icon">đŸ“</span>
+                Äá»‘i chiáº¿u nguá»“n chĂ­nh thá»‘ng
+              </li>
+              <li>
+                <span className="commitment-icon">đŸ¤</span>
+                Cam káº¿t liĂªm chĂ­nh vĂ  minh báº¡ch trong má»i á»©ng dá»¥ng
+              </li>
+            </ul>
+
+            <div className="commitment-statement">
+              <p>
+                ChĂºng tĂ´i cam káº¿t sá»­ dá»¥ng AI nhÆ° má»™t cĂ´ng cá»¥ há»— trá»£, khĂ´ng thay tháº¿ tÆ° duy vĂ  trĂ¬nh bĂ y cá»§a mĂ¬nh. 
+                Má»i ná»™i dung Ä‘á»u Ä‘Æ°á»£c kiá»ƒm tra, Ä‘Ă¡nh giĂ¡ vĂ  chá»‰nh sá»­a cáº©n tháº­n Ä‘á»ƒ Ä‘áº£m báº£o tĂ­nh chĂ­nh xĂ¡c vĂ  tuĂ¢n thá»§ Ä‘áº¡o Ä‘á»©c há»c thuáº­t.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="ai-transparency-footer">
+        <div className="ai-container">
+          <p className="footer-copyright">Â© 2025 â€“ Trang web "TĂ­nh Minh Báº¡ch AI"</p>
+          <p className="footer-contact">LiĂªn há»‡: transparency@researchgroup.edu.vn</p>
+        </div>
+      </footer>
+    </div>
+  );
+}

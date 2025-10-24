@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/header.tsx","./src/pages/atransparency.tsx","./src/pages/chatbotpage.tsx","./src/pages/lessonspage.tsx","./src/pages/songpage.tsx","./src/pages/videopage.tsx","./src/sections/closing.tsx","./src/sections/context.tsx","./src/sections/hero.tsx","./src/sections/team.tsx"],"version":"5.9.3"}
