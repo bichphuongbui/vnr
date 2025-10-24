@@ -5,14 +5,6 @@ interface Message {
   content: string;
 }
 
-// Read the GROQ API key from Vite env. Prefix must be VITE_ to be exposed to the client.
-const GROQ_API_KEY: string = (import.meta.env.VITE_GROQ_API_KEY as string) || '';
-
-if (!GROQ_API_KEY) {
-  // Helpful warning during development when env is not set
-  console.log('Warning: VITE_GROQ_API_KEY is not set. Chatbot requests will fail without a valid API key.');
-}
-
 export default function ChatbotPage() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
@@ -48,19 +40,14 @@ export default function ChatbotPage() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+      // Gọi qua backend API để bảo mật API key
+      const response = await fetch('/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${GROQ_API_KEY}`
         },
         body: JSON.stringify({
-          model: 'llama-3.1-8b-instant',
           messages: [
-            {
-              role: 'system',
-              content: 'Bạn là trợ lý AI chuyên về lịch sử Việt Nam giai đoạn 1945-1954, Cách mạng tháng Tám và kháng chiến chống Pháp. Hãy trả lời bằng tiếng Việt, chính xác và dễ hiểu.'
-            },
             ...messages.map(m => ({ role: m.role, content: m.content })),
             { role: 'user', content: input }
           ],
